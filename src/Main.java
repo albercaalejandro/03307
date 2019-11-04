@@ -29,7 +29,7 @@ public class Main {
         double minEstaciones = 0;
         double maxEstaciones = 700;
         double estaciones;
-        for (int i = 0; i < 4; i++) {
+        for (int i = 1; i <= 4; i++) {
             estaciones = RND.nextDouble()*(maxEstaciones - minEstaciones) + minEstaciones;
             System.out.printf("Estación %d ...: %.02f  mcg NO2 %n",i,estaciones);
         }
